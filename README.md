@@ -10,6 +10,8 @@ Each painting has a price, and a title.  Each artist has a name and an amount of
 
 The initial files and basic attributes have already been built, but you'll need to figure out the relationships and build the rest of the app out yourself!
 
+ARTIST --< PAINTINGS >-- GALLERY
+
 ## Deliverables
 
 ### Model the Domain
