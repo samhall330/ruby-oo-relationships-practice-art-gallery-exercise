@@ -8,14 +8,14 @@ gallery1 = Gallery.new("Louvre", "Paris")
 gallery2 = Gallery.new("MoMA", "New York")
 gallery3 = Gallery.new("Getty Museum", "LA")
 
-artist1 = Artist.new("Picasso", 100)
-artist2 = Artist.new("David Hockney", 60)
-artist3 = Artist.new("Monet", 200)
+artist1 = Artist.new("Picasso", 100.0)
+artist2 = Artist.new("David Hockney", 60.0)
+artist3 = Artist.new("Monet", 200.0)
 
-painting1 = Painting.new("Cubist Painting", 100, artist1, gallery1)
-painting2 = Painting.new("Bigger Splash", 200, artist2, gallery2)
-painting3 = Painting.new("Water Lilies", 300, artist3, gallery3)
-painting4 = Painting.new("Painting", 400, artist2, gallery1)
+painting1 = Painting.new("Cubist Painting", 100.0, artist1, gallery1)
+painting2 = Painting.new("Bigger Splash", 200.0, artist2, gallery2)
+painting3 = Painting.new("Water Lilies", 300.0, artist3, gallery3)
+painting4 = Painting.new("Painting", 400.0, artist2, gallery1)
 
 # Painting.total_price
 

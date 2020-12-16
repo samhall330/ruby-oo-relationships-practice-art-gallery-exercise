@@ -32,13 +32,10 @@ class Artist
     all_experience.sum
   end
 
-  def self.all_paintings
-    Painting.all.map{|painting| painting.artist}.count
-  end
 
-  # def self.most_prolific
-  #   Painting.all
-  # end
+  def self.most_prolific
+    self.all.max_by {|artist| artist.paintings.count / artist.years_experience}
+  end
 
   def create_painting(title, price, gallery)
     Painting.new(title, price, self, gallery)    
